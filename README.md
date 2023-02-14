@@ -1,4 +1,12 @@
-# lobster-blog-umi4
-umi4.x版本lobster-blog
+# 小龙虾的博客Umi4版
 
-#
+## lobster-blog-umi4
+
+
+### 技术栈
+
+* Umi4
+* TypeScript
+* Dva
+* AntDesign
+* Tailwindcss
