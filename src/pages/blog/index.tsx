@@ -10,7 +10,7 @@ function index() {
   const [postData, setPostData] = useState([])
 
   useEffect(() => {
-    async function getCurrentPostList() {
+    async () => {
       const res = await getPostsList()
       setPostData(res)
     }
@@ -42,7 +42,7 @@ function index() {
           return (<h3 className="text-tiny py-1 text-orange-600 flex font-bold">
           <span className="w-10/12 inline-block mr-0.5 font-semibold overflow-hidden
             whitespace-nowrap text-ellipsis text-left"
-            onClick={() => toDetail()}>{item.postTitle}</span>
+            onClick={() => toDetail()}>{item}</span>
         </h3>)
         })
       }
